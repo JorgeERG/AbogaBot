@@ -1,0 +1,168 @@
+/* . es para clases */
+
+/* # es para id´s */
+
+/* Inicio de sesion */
+#iniciosesion {
+  border: 3px solid #ccc !important;
+  padding: 0.01em 16px;
+  border-radius: 16px;
+  width: fit-content;
+  margin: 50px;
+  background-color: #ccc;
+  font-size: 20px;
+  outline: 20px solid rgb(25, 28, 217);
+}
+#ini {
+  margin: 100px;
+}
+#registrarse {
+  padding-left: 12ch;
+  font-size: large;
+}
+
+/* Registrarse */
+.registro {
+  font-size: large;
+  border: 3px solid #ccc !important;
+  padding: 0.01em 16px;
+  border-radius: 16px;
+  width: fit-content;
+  margin: auto;
+  margin-top: 5ch;
+  background-color: #ccc;
+  outline: rgb(181, 184, 248) solid 10px;
+}
+
+/* General */
+.input {
+  width: 300px;
+}
+
+/* flex de header */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(114, 114, 243);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+.footert {
+  font-size: medium;
+  text-align: center;
+}
+.footeri {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* menu principal */
+
+.menup-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.botones {
+  background-color: #1c6eba;
+  border: none;
+  color: white;
+  padding: 16px; margin-top: 300px;
+  border-radius: 16px;
+  text-align: center;
+  display: inline-block;
+  font-size: 50px;
+  cursor: pointer;
+  outline: 10px solid rgb(25, 28, 217);
+}
+
+/* nueva demanda */
+#dema{
+    display: flex; flex-direction: column;
+justify-content: center;
+}
+#dema1{
+    margin-top: 20px;
+}
+#dema2{
+    margin-top: 20px;
+}
+#dema3{
+    margin-top: 20px;
+}
+#dema4{
+    margin-top: 20px;
+}
+#dema5{
+    margin-top: 20px;
+}
+
+/* MetodoPago */
+.grid-tarjeta{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #227bc4;
+    padding: 10px;
+    border-radius: 10px;
+    column-gap: 50px;
+    row-gap: 20px;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.grid-tarjeta-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center
+}
+#botonconfirmapago{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* DemandasEntrantes */
+.nuevademanda-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #227bc4;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.nuevademanda-grid-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center
+}
+
+
+.editardemanda-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #227bc4;
+    padding: 10px;
+    border-radius: 10px;
+}
+.editardemanda-grid-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center
+}
